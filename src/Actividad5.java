@@ -6,7 +6,7 @@ public class Actividad5 {
 
         System.out.println("\n=== Calculadora de área y de perímetro ===");
 
-        while (true) {
+        do {
             System.out.println("\nSelecciona una figura: ");
             System.out.println("1. Circulo");
             System.out.println("2. Cuadrado");
@@ -91,7 +91,7 @@ public class Actividad5 {
                     }
                     break;
             }
-        }
+        } while (true);
         System.out.println("¡Hasta luego!");
         scanner.close();
     }
